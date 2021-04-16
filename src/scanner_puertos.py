@@ -1,7 +1,7 @@
 """
 Uso: Escanear puertos
 Creado: Andrés Hernández Mata
-Version: 1.0.0
+Version: 1.1.0
 Python: 3.9.1
 Fecha: 16 Abril 2020
 """
@@ -9,7 +9,9 @@ Fecha: 16 Abril 2020
 import argparse
 import requests
 import check_ports_socket
+import os
 
+os.system("cls")
 
 if __name__ == "__main__":
 
