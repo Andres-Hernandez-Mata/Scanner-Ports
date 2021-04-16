@@ -1,3 +1,11 @@
+"""
+Uso: Escanear puertos
+Creado: Andrés Hernández Mata
+Version: 1.0.0
+Python: 3.9.1
+Fecha: 16 Abril 2020
+"""
+
 import argparse
 import requests
 import check_ports_socket
