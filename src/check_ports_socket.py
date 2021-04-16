@@ -1,7 +1,7 @@
 """
 Uso: Socket
 Creado: Andrés Hernández Mata
-Version: 1.0.0
+Version: 1.1.0
 Python: 3.9.1
 Fecha: 16 Abril 2020
 """
@@ -11,8 +11,7 @@ import sys
 import faker
 
 def checkPortsSocket(ip,portlist):
-    #print("IP",ip,type(ip)) #str
-    #print("IP",ip,type(ip)) #str
+    #print("IP",ip,type(ip)) #str    
     try:
         for port in portlist:
             sock= socket.socket(socket.AF_INET,socket.SOCK_STREAM)#tecnología, protocolo
